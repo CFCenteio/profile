@@ -1,0 +1,125 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200&display=swap');
+
+body {
+  font-family: "Kanit";
+  font-size: 19px;
+  background-color: #a86c2c;
+  text-align: center;
+  line-height: normal;
+}
+
+h1 {
+  font-family: "Space Grotesk";
+  color: #439A97;
+  font-size: 35px;
+  font-weight: 600;
+}
+
+ h2, h3 {
+  font-family: "Space Grotesk";
+  color: #439A97;
+
+}
+
+li {
+  display: inline;
+  padding: 5px;
+}
+
+/* ul {
+  padding: 0px;
+} */
+
+.card-white {
+  background-color: #EEEEEE;
+  padding: 50px;
+  width: 80%;
+  margin: 25px auto;
+  border-radius: 5px;
+  border: 2px solid #EAEAEA;
+  box-shadow: 0 0 20px rgba(0,0,0,0.3);
+}
+
+.container {
+  width: 900px;
+  margin: 25px auto;
+}
+
+.round-pic {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 2px solid #EF9A53;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+a{
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 40px;
+  color: #62B6B7;
+  transition: 0.3s ease;
+}
+a:hover{
+  color: #FF7000
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+    max-width: 90%;
+    margin: auto;
+  }
+  .card-white {
+    width: 660px;
+    max-width: 90%;
+    margin: 25px auto;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 660px;
+    max-width: 90%;
+    margin: auto;
+  }
+
+  .card-white {
+    width: 600px;
+    max-width: 90%;
+    margin: 25px auto;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 450px;
+    max-width: 90%;
+    margin: auto;
+  }
+
+  .card-white {
+    width: 280px;
+    max-width: 90%;
+    margin: 25px auto;
+  }
+}
+
+@media (max-width: 320px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 290px;
+    max-width: 90%;
+    margin: auto;
+  }
+
+  .card-white {
+    width: 210px;
+    max-width: 90%;
+    margin: 25px auto;
+  }
+}
